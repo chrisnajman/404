@@ -1,6 +1,6 @@
 # 404: Page not found
 
-This is a simple 404 error page featuring a theme switcher (defaulting to light mode). The page is designed with accessibility in mind, ensuring that color combinations meet WCAG AAA contrast standards. The color choices were verified using [WhoCanUse](https://www.whocanuse.com/), confirming full AAA compliance for optimal readability and accessibility.
+This is a simple 404 error page featuring a theme switcher (defaulting to light mode). The page is designed with accessibility in mind, ensuring that colour combinations meet WCAG AAA contrast standards. The color choices were verified using [WhoCanUse](https://www.whocanuse.com/), confirming full AAA compliance for optimal readability and accessibility.
 
 ## Features
 
