@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Page not found">
+    <title>404: Page not found</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./index.js" type="module"></script>
+</head>
+
+<body class="flow">
+    <div id="loader" class="loader"><span class="visually-hidden">The page is loading...</span></div>
+    <span class="visually-hidden" aria-hidden="true" id="page-loaded"></span>
+    <a href="#main-content" class="element-invisible element-focusable skip-link">Skip to main content</a>
+
+    <div class="theme-toggler">
+        <p class="light">Light<span class="visually-hidden"> theme inactive</span></p><button type="button"
+            aria-pressed="true" aria-label="Toggle theme"><span></span></button>
+        <p class="dark">Dark<span class="visually-hidden"> theme active</span></p>
+    </div>
+
+    <header class="header">
+        <p class="h1">
+            <span>Page not found</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                <path
+                    d="M11.953 2C6.465 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.493 2 11.953 2zM13 17h-2v-2h2v2zm0-4h-2V7h2v6z">
+                </path>
+            </svg>
+        </p>
+    </header>
+
+    <main class="main container" id="main-content">
+
+        <h1>404</h1>
+        <p>We are sorry, but the page you requested was not found.</p>
+
+    </main>
+
+    <footer class="footer">
+        <a href="https://github.com/chrisnajman/404" target="_blank" rel="noopener noreferrer" class="external-link">
+            GitHub Repository
+        </a>
+    </footer>
+
+</body>
+
+</html>
